@@ -1,0 +1,156 @@
+/* .n_bars{
+    height: 40px;
+    background-color: #04AA6D;
+
+} */
+
+.font-link {
+    font-family: 'Hanalei Fill', cursive;
+  }
+
+
+.menu-bars {
+    font-size: 2rem;
+    color: black;
+    margin-left: 0.7rem;
+    margin-top: -1.5%;
+
+}
+
+.menu-barss {
+    font-size: 2rem;
+    color: black;
+    margin-left: 0.7rem;
+    margin-top: 35%;
+
+}
+
+.navbar {
+    background-color: black;
+    height: 55px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-menu {
+    background-color: black;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text_1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px, 0px, 8px, 16px;
+    list-style: none;
+    height: 60px;
+    margin-top: 40%;
+}
+
+.nav-text_2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px, 0px, 8px, 16px;
+    list-style: none;
+    height: 60px;
+    margin-top: 25%;
+}
+
+.nav-text_3 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px, 0px, 8px, 16px;
+    list-style: none;
+    height: 60px;
+    margin-top: 25%;
+}
+
+.nav-text a{
+    color: white;
+}
+
+.nav-text_1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    height: 50px;
+
+}
+
+.nav-text_2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    height: 50px;
+}
+
+.nav-text_3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    height: 50px;
+}
+
+.nav-text_1 a:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.nav-text_2 a:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.nav-text_3 a:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.navbar-toggle {
+    background-color: #04AA6D;
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+span {
+    margin-left: 16px;
+}
+
+.form__buttonn{
+margin-left: 85%;
+margin-top: -5px;
+}
